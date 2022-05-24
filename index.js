@@ -25,3 +25,19 @@ app.get('/endpoint-2', (req, res, next) => {
 
 const PORT = process.env.PORT || 5001;
 app.listen(PORT, () => console.log(`Server is running on this port ${PORT}`));
+
+
+
+
+/* 
+let numero = 4;
+//var result =1;
+//let result = 5;
+let result=1;
+
+for (let index = 1; index <= numero; index++) {
+  result *=index;
+  console.log( "el factorial de: " ,numero ,  "es: ", result);     
+}
+
+console.log( "el factorial de: " ,numero ,  "es: ", result); */
